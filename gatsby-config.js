@@ -20,8 +20,7 @@ module.exports = {
         name: `images`,
       },
     },
-   
-    },
+    
     `gatsby-plugin-offline`,
   ],
 };
