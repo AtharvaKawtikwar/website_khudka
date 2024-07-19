@@ -13389,7 +13389,7 @@ function Nav() {
     to: "/"
   }, "home"), (0, _react2.jsx)(_gatsby.Link, {
     to: "/resume"
-  }, "RESUME"));
+  }, "R\xE9sum\xE9"));
 }
 
 /***/ }),
@@ -13823,8 +13823,8 @@ function ResumePage() {
       textAlign: 'center',
       marginTop: '50px'
     }
-  }, (0, _react2.jsx)("h1", null, "My Resume"), (0, _react2.jsx)("a", {
-    href: "/Atharva_Resume.pdf",
+  }, (0, _react2.jsx)("h1", null, "My R\xE9sum\xE9"), (0, _react2.jsx)("a", {
+    href: "/Atharva_Resume_2.pdf",
     target: "_blank",
     rel: "noopener noreferrer"
   }, (0, _react2.jsx)("button", {
@@ -13863,8 +13863,8 @@ function ResumePage() {
       textAlign: 'center',
       marginTop: '50px'
     }
-  }, (0, _react2.jsx)("h1", null, "My Resume"), (0, _react2.jsx)("a", {
-    href: "/Atharva_Resume.pdf",
+  }, (0, _react2.jsx)("h1", null, "My R\xE9sum\xE9"), (0, _react2.jsx)("a", {
+    href: "/Atharva_Resume_2.pdf",
     target: "_blank",
     rel: "noopener noreferrer"
   }, (0, _react2.jsx)("button", {
