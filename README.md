@@ -106,3 +106,4 @@ The [tailwind docs](https://tailwindcss.com) are a great resource to get you sta
 - SEO component, taken from [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog), allowing you to add your SEO descriptions & title's.
 
 - Favicon. Auto-generated from [gatsby-plugin-manifest](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-manifest#readme) set in `gatsby-config.js`. Replace the current favicon (`src/images/icon/logo.png`) with your own 512x512 icon
+"# website_khudka" 
