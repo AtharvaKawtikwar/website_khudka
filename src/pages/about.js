@@ -11,27 +11,21 @@ export default function AboutPage() {
       <StyledAbout>
         <h1>About</h1>
         <div>
-          <div className="section starter">
+          {/* <div className="section starter">
             <h2>Gatsby Emotion Tailwind Starter</h2>
             <p>
               A Gatsby starter combining some of my favourite libraries to
               create an awesome template to build your own{' '}
               <a href="https://jamstack.org/">JAMStack</a> website!
             </p>
-          </div>
+          </div> */}
           <div className="section tech">
-            <h2>Tech Stack</h2>
+            <h2>Experience</h2>
             <ul>
               <li>
-                <a
-                  className="gatsby"
-                  href="https://www.gatsbyjs.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Gatsby:
-                </a>{' '}
-                A blazing fast React framework for building websites & apps.
+                
+                 JIO PLATFORMS LTD.
+                 <p>May 2024-July 2024</p>
               </li>
               <li>
                 <a
@@ -59,14 +53,14 @@ export default function AboutPage() {
             </ul>
           </div>
           <div className="section features">
-            <h2>Features</h2>
+            <h2>Education</h2>
             <ul>
-              <li>Lazy loading</li>
-              <li>Dark & Light Theme</li>
-              <li>Mobile friendly through Tailwind's utility classes</li>
-              <li>SEO friendly</li>
-              <li>Offline support</li>
-              <li>
+              <li>Mukesh Patel School of Techology Management & Engineering</li>
+              <p>2022-2026</p>
+              <li>Fr Agnel Multipurpose School</li>
+              <p>2007-2022</p>
+              
+              {/* <li>
                 Host your own static website on{' '}
                 <a
                   href="https://www.netlify.com/"
@@ -92,7 +86,7 @@ export default function AboutPage() {
                   Surge
                 </a>
                 , and many more!
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

@@ -1,55 +1,52 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-
 import { StyledCardGrid, StyledCard } from './styles';
 
 export default function CardGrid() {
   return (
     <StyledCardGrid>
       <section>
-        <h2>Example Project Cards</h2>
+        <h2>My Projects</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipiscing elit. Ipsa libero
-          labore natus atque, ducimus sed.
+          My projects are a mix of blog posts, tech articles, case studies presented in websites and applications.
         </p>
         <ul className="cards">
           <StyledCard as="li" title={`Project`} key={`Card`}>
-            <StaticImage src="../../images/pugs/pug-1.jpg" alt="Pug" />
+            <StaticImage src="../../images/icon/simplilegal.jpeg" alt="Simplilegal" />
             <div className="card-content">
-              <span className="type">blog</span>
-              <h3>Vitae tempus quam pellentesque nec</h3>
+              <span className="type">Tech</span>
+              <h3>Simplilegal</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-                vel risus commodo viverra.
+              Simplilegal is a fine-tuned Llama2 - 7b model on a dataset consisting of legal documents and advisories. 
+The model acts as an assistant to the user providing with coherent advises and sample documents according to the user’s 
+prompt.
               </p>
             </div>
           </StyledCard>
           <StyledCard as="li" title={`Project`} key={`Card`}>
-            <StaticImage src="../../images/pugs/pug-2.jpg" alt="Pug" />
+            <StaticImage src="../../images/icon/Greensprout.jpeg" alt="Pug" />
             <div className="card-content">
               <span className="type">tech</span>
-              <h3>Et malesuada fames ac turpis egestas integer</h3>
+              <h3>GreenSprout</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              GreenSprout developed a working model where we would encourage in donating money to plant trees and the same 
+money would be given to volunteers who would volunteer to plant trees and provide them with necessary 
+materials.
               </p>
             </div>
           </StyledCard>
           <StyledCard as="li" title={`Project`} key={`Card`}>
-            <StaticImage src="../../images/pugs/pug-3.jpg" alt="Pug" />
+            <StaticImage src="../../images/icon/EVA2Z.jpeg" alt="EV" />
             <div className="card-content">
-              <span className="type">case study</span>
-              <h3>Augue lacus viverra vitae congue</h3>
+              <span className="type">Tech</span>
+              <h3>EV A2Z</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem
-                et tortor consequat id porta nibh venenatis cras. Mauris
-                pellentesque.
+              EV A2Z Developed a working model which helped in locating nearest EV station. It also helped people to choose the 
+              best EV they can buy depending on their location and mode of use. 
               </p>
             </div>
           </StyledCard>
-          <StyledCard as="li" title={`Project`} key={`Card`}>
+          {/* <StyledCard as="li" title={`Project`} key={`Card`}>
             <StaticImage src="../../images/pugs/pug-4.jpg" alt="Pug" />
             <div className="card-content">
               <span className="type">blog</span>
@@ -73,7 +70,7 @@ export default function CardGrid() {
                 viverra aliquet eget sit amet tellus cras.
               </p>
             </div>
-          </StyledCard>
+          </StyledCard> */}
         </ul>
       </section>
     </StyledCardGrid>

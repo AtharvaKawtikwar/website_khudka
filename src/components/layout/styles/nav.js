@@ -4,10 +4,8 @@ const StyledNav = styled.nav`
   ${tw`grid grid-template-columns[1fr repeat(2, minmax(min-content, max-content))] gap-x-2 text-center place-items-center`};
 
   .logo {
-    ${tw`flex items-center py-2 justify-self-start md:justify-center`};
-    svg {
-      ${tw`block w-10 h-12 md:(w-14 h-16)`};
-    }
+    ${tw`flex items-center py-2 justify-self-start md:justify-center text-2xl font-sans`};
+    
   }
 
   a:not(.logo) {
@@ -20,3 +18,7 @@ const StyledNav = styled.nav`
 `;
 
 export default StyledNav;
+
+
+
+

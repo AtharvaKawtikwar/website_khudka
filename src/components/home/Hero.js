@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-
+import dp from "../../images/icon/Atharva_Photo.jpg";
 import useTheme from '@hooks/use-theme';
 import { StyledHero } from './styles';
 
@@ -17,13 +17,32 @@ export default function Hero() {
                 👋
               </span>{' '}
             </span>
-            I'm a <span className="gatsby">Gatsby JS</span> static website
-            template
+            I'm  <span className="gatsby">Atharva </span> <br></br>a Full Stack Web Developer
           </h1>
           {
             //#region
           }
+          
           <svg
+  aria-hidden="true"
+  focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 850 750"
+  width="400"
+  height="400"
+>
+  <circle
+    data-name="ab6171fa-7d69-4734-b81c-8dff60f9761b"
+    cx="282.8144"
+    cy="176.7328"
+    r="68.3218"
+    fill="#ffb6b6"
+  />
+  
+  <image href={dp} />
+</svg>
+
+          {/* <svg
             aria-hidden="true"
             focusable="false"
             xmlns="http://www.w3.org/2000/svg"
@@ -272,27 +291,18 @@ export default function Hero() {
               d="M194.468 183.5696a6.476 6.476 0 00-1.17-2.45 14.7255 14.7255 0 00-.57 8.79l3.45 14.36a15.845 15.845 0 005.34 8.62z"
               fill="#3f3d56"
             />
-          </svg>
+          </svg> */}
           {
             //#endregion
           }
         </div>
         <h2>
-          I come pre-packed with Emotion and Tailwind CSS for styling
-          components. I support cool modern features like lazy-loading images,
-          code and data splitting, and offline support. Check out the source
-          code{' '}
-          <a
-            href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            here
-          </a>{' '}
-          and go build something cool! <span>{isDark ? '😍' : '😎'}</span>
+          I am a Full Stack Web Developer with a passion for building sustainable and scalable web applications. I specialize in ReactJS & NextJS for the frontend and NodeJS & ExpressJS for the backend. I am also proficient in using MongoDB, PostgreSQL, and MySQL for database management. I am always eager to learn new technologies and frameworks to improve my skills and knowledge.
+          
+        
         </h2>
         <ul className="tech">
-          <li>
+          {/* <li>
             <svg role="img" focusable="false" viewBox="0 0 106 30">
               <title>Gatsby JS logo</title>
               <g fill="currentColor">
@@ -314,8 +324,8 @@ export default function Hero() {
                 ></path>
               </g>
             </svg>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <StaticImage
               src="../../images/emotion.png"
               placeholder="blurred"
@@ -338,7 +348,7 @@ export default function Hero() {
                 fill="currentColor"
               ></path>
             </svg>
-          </li>
+          </li> */}
         </ul>
       </section>
     </StyledHero>

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    author: `Chris Williams`,
-    title: `Gatsby Emotion Tailwind Starter`,
-    description: `An example Gatsby starter making use of emotion and tailwind`,
-    siteUrl: `https://gatsby-emotion-tailwind-starter.netlify.app/`,
+    author: `Atharva Kawtikwar`,
+    title: `Kawti's Personal Website`,
+    description: `An example of making use of emotion and tailwind`,
+    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     locale: `en_GB`,
   },
   plugins: [

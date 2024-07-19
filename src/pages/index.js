@@ -7,7 +7,7 @@ import { Hero, CardGrid } from '@home';
 export default function IndexPage() {
   return (
     <Main>
-      <Seo description="Home page for a Gatsby Starter, featuring Emotion and Tailwind css" />
+      <Seo  />
       <Hero />
       <CardGrid />
     </Main>

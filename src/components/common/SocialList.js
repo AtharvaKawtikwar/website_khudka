@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGithub,
   faTwitter,
-  faDiscord,
   faDev,
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
 import { StyledSocialList, StyledButton } from './styles';
@@ -15,7 +15,7 @@ export default function SocialList(props) {
       <li>
         <StyledButton
           as="a"
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
+          href="https://github.com/AtharvaKawtikwar"
           aria-label="github repo"
           target="_blank"
           rel="noopener noreferrer"
@@ -26,7 +26,7 @@ export default function SocialList(props) {
       <li>
         <StyledButton
           as="a"
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
+          href="https://x.com/atharvakawtikw1"
           aria-label="github repo"
           target="_blank"
           rel="noopener noreferrer"
@@ -37,7 +37,7 @@ export default function SocialList(props) {
       <li>
         <StyledButton
           as="a"
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
+          href="https://dev.to/atharva_kawtikwar_1cfc48c"
           aria-label="github repo"
           target="_blank"
           rel="noopener noreferrer"
@@ -48,12 +48,12 @@ export default function SocialList(props) {
       <li>
         <StyledButton
           as="a"
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
+          href="https://in.linkedin.com/in/atharvakawtikwar"
           aria-label="github repo"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faDiscord} />
+          <FontAwesomeIcon icon={faLinkedin} />
         </StyledButton>
       </li>
     </StyledSocialList>

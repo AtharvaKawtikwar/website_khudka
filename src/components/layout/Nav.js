@@ -6,13 +6,18 @@ import { StyledNav } from './styles';
 export default function Nav() {
   return (
     <StyledNav aria-label="Main Navigation">
-      <Link to="/" aria-label="Homepage" className="logo">
+      {/* <Link to="/" aria-label="Homepage" className="logo">
         <svg aria-hidden="true" focusable="false">
           <use xlinkHref="/logo.svg#logo" />
         </svg>
-      </Link>
+      </Link> */}
+      <Link to="/" aria-label="Homepage" className="logo">
+  Atharva Kawtikwar
+</Link>
+
       <Link to="/">home</Link>
-      <Link to="/about">about</Link>
+      <Link to="/resume">Résumé</Link>
+      {/* <Link to="/about">about</Link> */}
     </StyledNav>
   );
 }
