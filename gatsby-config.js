@@ -29,7 +29,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `standalone`,
-        icon: `src/images/icon/logo.png`,
+        icon: `src/images/icon/logo2.png`,
         theme_color_in_head: false,
       },
     },
